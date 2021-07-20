@@ -15,9 +15,8 @@ const SideList = () => {
                         <SideListItem 
                             id={video.id.videoId}
                             key={video.id.videoId}
-                            src={video.snippet.thumbnails.medium.url}
-                            title={video.snippet.title}
-
+                            src={video.snippet?.thumbnails.medium.url}
+                            title={video.snippet?.title}
                         />
                     )
                 })
